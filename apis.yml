@@ -1,0 +1,32 @@
+aid: phisherman
+name: Phisherman
+description: "IP/domain/URL reputation"
+url: https://phisherman.gg/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Anti-Malware"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Anti Malware
+  - Public APIs
+apis:
+  - name: Phisherman
+    description: "IP/domain/URL reputation"
+    humanURL: https://phisherman.gg/
+    baseURL: https://phisherman.gg/
+    tags:
+      - Anti Malware
+    properties:
+      - type: Documentation
+        url: https://phisherman.gg/
+common:
+  - type: Website
+    url: https://phisherman.gg/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
