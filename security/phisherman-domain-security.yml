@@ -1,0 +1,12 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: phisherman.gg
+  https: false
+domains:
+- domain: phisherman.gg
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
